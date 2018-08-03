@@ -1,2 +1,6 @@
-# drought_app_vo1
-Visualize the results of the historic 2018 drought in The Netherlands.
+# Simple Drought App
+Visualize the effects of the historic 2018 drought in The Netherlands.
+
+#[App](https://rutgerhofste.users.earthengine.app/view/droughtappv01)
+
+
