@@ -1,7 +1,8 @@
 // Rutger Hofste 2018-08-03
 // Github: https://github.com/rutgerhofste/drought_app_vo1
 // Public URL: https://rutgerhofste.users.earthengine.app/view/droughtappv01
-// add to URL ?summit_preview&accept_repo=users/lks/ee-103
+// Add to URL ?summit_preview&accept_repo=users/lks/ee-103
+// ee repo URL: https://earthengine.googlesource.com/users/rutgerhofste/drought_app_v01
 
 var ic_s2 = ee.ImageCollection("COPERNICUS/S2"),
     ic_ls8 = ee.ImageCollection("LANDSAT/LC08/C01/T1_SR");
@@ -38,7 +39,7 @@ function maskS2clouds(image) {
   return image.updateMask(mask).divide(10000);
 }
 
-// Filter all historial July's (2015-2017)
+// Filter all historial July's
 var ic_s2_hist = ic_s2.filter(ee.Filter.calendarRange(month_min,month_max, "month"))
                       .filter(ee.Filter.calendarRange(2014, 2017, "year"))
 
@@ -93,8 +94,6 @@ var ic_ls8_hist = ic_ls8.filter(ee.Filter.calendarRange(month_min, month_max, "m
                         .filter(ee.Filter.calendarRange(2014, 2017, "year"))
 var ic_ls8_2018 = ic_ls8.filter(ee.Filter.calendarRange(month_min, month_max, "month"))
                         .filter(ee.Filter.calendarRange(2018, 2018, "year"))
-
-print(ic_ls8_hist.limit(10))
 
 var ls8_composite_hist = ic_ls8_hist.map(compositeFunctionSR)
                                     .median();
