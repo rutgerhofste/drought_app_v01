@@ -119,7 +119,7 @@ title.style().set({
 var description = ui.Label("The summer of 2018 has been extremely dry. Satellite imagery (landsat8) for July reveals the potentially devastating effect on the landscape. Check out how brown the 2018 land (right) is compared to previous years(left). ")
 
 
-var disclaimer = ui.Label(" Created 2018/08/03 by Rutger Hofste. Created for fun and not for scientific purposes. Code and licence on Github: https://github.com/rutgerhofste/drought_app_vo1  ")
+var disclaimer = ui.Label(" Created 2018/08/03 by Rutger Hofste. Created for fun and not for scientific purposes. Code and licence on Github: https://github.com/rutgerhofste/drought_app_v01  ")
 disclaimer.style().set({
   fontSize: '8px',
 });
