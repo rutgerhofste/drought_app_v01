@@ -11,7 +11,7 @@ var ic_s2 = ee.ImageCollection("COPERNICUS/S2"),
 
 // Incl.
 var month_min = 7
-var month_max = 8
+var month_max = 7
 var year_min = 2015
 
 
@@ -116,7 +116,7 @@ title.style().set({
   padding: '10px'
 });
 
-var description = ui.Label("The summer of 2018 has been extremely dry. Satellite imagery (landsat8) for July reveals the potentially devastating effect on the landscape. The missing pixels are due to clouds blocking the view of the Landsat 8 satellite. ")
+var description = ui.Label("The summer of 2018 has been extremely dry. Satellite imagery (landsat8) for July reveals the potentially devastating effect on the landscape. Check out how brown the 2018 land (right) is compared to previous years(left). ")
 
 
 var disclaimer = ui.Label(" Created 2018/08/03 by Rutger Hofste. Created for fun and not for scientific purposes. Code and licence on Github: https://github.com/rutgerhofste/drought_app_vo1  ")
@@ -147,7 +147,7 @@ panel.add(button)
 
 
 // Set a center and zoom level.
-var center = {lon: 5, lat: 52, zoom: 9};
+var center = {lon: 6, lat: 52, zoom: 10};
 
 // Create two maps.
 var leftMap = ui.Map(center);
