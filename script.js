@@ -107,7 +107,7 @@ print(ls8_composite_2018)
 
 // Control/Info panel
 
-var title = ui.Label("Historic Drought in the Netherlands")
+var title = ui.Label("Extreme Drought in the Netherlands")
 title.style().set('color', '#51504b');
 title.style().set('fontWeight', 'bold');
 title.style().set({
@@ -116,6 +116,7 @@ title.style().set({
 });
 
 var description = ui.Label("The summer of 2018 has been extremely dry. Satellite imagery (landsat8) for July reveals the potentially devastating effect on the landscape. Check out how brown the 2018 land (right) is compared to previous years(left). ")
+var description2 = ui.Label("The map on the right is created by taking all July 2018 data and remove clouds and shadows. The map on the left is the median value of the cloud, and shadow-free pixels of July 2014, July 2015, July 2016 and July 2017.")
 
 
 var disclaimer = ui.Label(" Created 2018/08/03 by Rutger Hofste. Created for fun and not for scientific purposes. Code and licence on Github: https://github.com/rutgerhofste/drought_app_v01  ")
@@ -140,6 +141,7 @@ var panel = ui.Panel({
 
 panel.add(title)
 panel.add(description)
+panel.add(description2)
 panel.add(disclaimer)
 panel.add(button)
 
@@ -188,5 +190,7 @@ rightMap.add(title_right)
 //Map.addLayer(s2_composite_2018,ivp_s2,"Sentinel-2 July 2018",0,1)
 
 leftMap.addLayer(ls8_composite_hist,ivp_s2,"Landsat-8 July 2015-2017",1,1)
-rightMap.addLayer(ls8_composite_2018,ivp_s2,"Landsat-8 July 2018",1,1)
+//leftMap.addLayer(ic_ls8_hist,{},"ic_ls8_hist",0,0)
 
+rightMap.addLayer(ls8_composite_2018,ivp_s2,"Landsat-8 July 2018",1,1)
+//rightMap.addLayer(ic_ls8_2018,{},"ic_ls8_2018",0,0)
