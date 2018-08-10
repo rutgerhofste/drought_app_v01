@@ -1,7 +1,9 @@
 # Simple Drought App
 Visualize the effects of the historic 2018 drought in The Netherlands.
 
-[App](https://rutgerhofste.users.earthengine.app/view/droughtappv01)
+[Dashboard](https://datastudio.google.com/open/13toeHatvw6cg4R741Euue5GtVlRJX2tK)
+[Satellite App](https://rutgerhofste.users.earthengine.app/view/droughtappv01)
+[Results App](https://rutgerhofste.carto.com/builder/5f366148-d967-4136-a9c9-efb7e13307b1/embed)
 
 ## Methodology to create map
 The app uses data from landsat-8. Landsat-8 has a revisit time of 16 days and like many staelilites in the visual spectrum cannot see through clouds. Processing of the data is as follows:
