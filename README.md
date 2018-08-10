@@ -21,7 +21,7 @@ Clouds and shadows are removed using cloud mask and shadow mask (see script)
 ### Step 4
 Take the median for all remaining valid pixels. 
 
-Data for year 2018 is often based on two images whereas the historic data is based on appr. 9 images. 
+The number of valid pixels varies per location but ranges from 0 to 6 for 2018 and 0 to 10 for 2014 - 2017. Invalid pixels have been masked out. 
 
 ## Methodology to calculate greenness per municipality 
 start with the same methodology as for map.
