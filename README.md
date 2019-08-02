@@ -1,6 +1,5 @@
 # 2019 update
-Images and scripts updated for 2019
-https://github.com/rutgerhofste/drought_app_v01/blob/master/gelderlander_2019_v01.js
+Images and [script](https://github.com/rutgerhofste/drought_app_v01/blob/master/gelderlander_2019_v01.js) updated for 2019
 
 Suggested citations:  
 Script by Rutger Hofste, available at https://github.com/rutgerhofste/drought_app_v01
