@@ -7,7 +7,7 @@ Data available from the U.S. Geological Survey.
 Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., & Moore, R. (2017). Google Earth Engine: Planetary-scale geospatial analysis for everyone. Remote Sensing of Environment.  
 
 Description:  
-As input data I've used satelite imagery form  USGS Landsat 8 Collection 1 Tier 1 TOA Reflectance. 
+As input data I've used satellite imagery form  USGS Landsat 8 Collection 1 Tier 1 TOA Reflectance. 
 Using the latest available date (July 19th) and a lookback period of 90 days, I masked out clouds and shadows and create
 three images: 2019, 2018 and pre. The pre image is using data from 2014-2017.   
 
