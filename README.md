@@ -1,3 +1,25 @@
+# 2019 update
+Images and scripts updated for 2019
+https://github.com/rutgerhofste/drought_app_v01/blob/master/gelderlander_2019_v01.js
+
+Suggested citations:
+Script by Rutger Hofste, available at https://github.com/rutgerhofste/drought_app_v01
+Data available from the U.S. Geological Survey.
+Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., & Moore, R. (2017). Google Earth Engine: Planetary-scale geospatial analysis for everyone. Remote Sensing of Environment.
+
+Description:
+As input data I've used satelite imagery form  USGS Landsat 8 Collection 1 Tier 1 TOA Reflectance. 
+Using the latest available date (July 19th) and a lookback period of 90 days, I masked out clouds and shadows and create
+three images: 2019, 2018 and pre. The pre image is using data from 2014-2017. 
+
+In the post-processing step I clipped the data to Gelderland province and visualized bands 4,3,2 [0 - 0.3]. 
+
+Earthengine script:
+Y2019M08D02_RH_Gelderlander_v01
+https://code.earthengine.google.com/6129f8f5241154a1054592b14737d20e
+https://github.com/rutgerhofste/drought_app_v01/blob/master/gelderlander_2019_v01.js
+
+
 # Simple Drought App
 Visualize the effects of the historic 2018 drought in The Netherlands.
 
