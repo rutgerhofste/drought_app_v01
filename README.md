@@ -3,7 +3,7 @@ Images and [script](https://github.com/rutgerhofste/drought_app_v01/blob/master/
 
 Suggested citations:  
 Script by Rutger Hofste, available at https://github.com/rutgerhofste/drought_app_v01
-Data available from the U.S. Geological Survey.
+Data available from the U.S. Geological Survey.  
 Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., & Moore, R. (2017). Google Earth Engine: Planetary-scale geospatial analysis for everyone. Remote Sensing of Environment.  
 
 Description:  
